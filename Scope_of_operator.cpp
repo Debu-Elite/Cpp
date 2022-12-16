@@ -11,8 +11,12 @@ using namespace std;
 int y= 400;
 int main()
 {
+
+int x=50;//this is not globally variable
+{
     int x=10;
     cout<<"enter the value of x in local"<<x<<endl;
     cout<<"the value of x in global : "<< ::x<< endl;// x is not decleared globally
     cout<<"the value of y : "<< y<< endl;
+}
 }
