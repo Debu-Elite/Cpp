@@ -10,8 +10,8 @@ using namespace std;
 int main()
 
 {
-    int x=10;
-    const int &rv=50;// you can't refer to constant value
+    const int x=10;
+     int &rv=x;// you can't refer to constant value
 
     cout<<"address of x"<<&x<<endl;
     cout<<"address of reference variable="<< &rv<< endl;//
