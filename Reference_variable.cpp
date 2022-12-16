@@ -11,12 +11,12 @@ int main()
 
 {
     int x=10;
-    int &rv=0;// you can't refer to constant value
+    const int &rv=50;// you can't refer to constant value
 
     cout<<"address of x"<<&x<<endl;
     cout<<"address of reference variable="<< &rv<< endl;//
     cout<<"the value of x : "<< x<< endl;
-    rv =50;
+
 
   cout<<"the value of rv  "<<rv<<endl;
 }
