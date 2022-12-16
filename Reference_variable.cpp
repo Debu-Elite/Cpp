@@ -11,7 +11,7 @@ int main()
 
 {
     int x=10;
-    int &rv;
+    int &rv=0;// you can't refer to constant value
 
     cout<<"address of x"<<&x<<endl;
     cout<<"address of reference variable="<< &rv<< endl;//
