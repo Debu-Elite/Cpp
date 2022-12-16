@@ -19,5 +19,5 @@ int x=50;//you can't access this variable inside inner block
     cout<<"the value of x in global : "<< ::x<< endl;// x is not decleared globally
     cout<<"the value of y : "<< y<< endl;
 }
-
+  cout<<"the value of x in 2nd block "<<x<<endl;
 }
