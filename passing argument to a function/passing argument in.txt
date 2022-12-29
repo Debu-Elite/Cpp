@@ -1,0 +1,8 @@
+there tree way of passing argument in a function
+1. call by value 
+2. call by address
+3. call by reference
+  we all know about call by value and call by reference and now we will discuss about call by reference
+method of passing argument to a function copies the reference of an argument into the formal parameter inside a function,
+the reference is used to access the actual ardument used in the call thios means that 
+changes made to the parameter affect the passed argument 
