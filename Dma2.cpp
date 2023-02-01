@@ -4,9 +4,6 @@ DMA in array
 */
 #include<iostream>
 using namespace std;
-
-
-
 int main()
 {
 int *ptr;
@@ -17,7 +14,5 @@ for(int i=0;i<5;i++)
 
 for(int i=0;i<5;i++)
 cout<<*(ptr+i)<<endl;
-delete ptr;
-
-
+delete []ptr;
 }
