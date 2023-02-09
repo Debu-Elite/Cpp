@@ -15,6 +15,10 @@ public:
          cout<<sum<<endl;
 
      }
+     void second_fun(variable1 s, variable2 j)
+     {
+         cout<<s*j<<endl;
+     }
 };
 int main()
 {
@@ -22,4 +26,5 @@ int main()
     obj1.set_data(10,22);
     calculator <int,float> obj2;
     obj2.set_data(10,2.2);
+    obj2.second_fun(4,0.56);
 }
